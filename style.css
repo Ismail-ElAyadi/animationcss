@@ -1,0 +1,71 @@
+p {
+
+    display: block;
+    width:100px;
+     color:white;
+     margin:2% auto 2% auto;
+    text-align: center;
+    border:3px solid white;
+    padding:auto;
+
+
+    font-size: 140%;
+}
+
+body{
+    background-color: black;
+
+
+}
+
+
+/*--------------------------------------------------*/
+#first{
+    transition-property: background;
+    transition-duration: 2s;
+
+    
+ }
+ #first:hover
+ {
+  
+    background-color:white;
+    color:black;
+
+}
+
+#second
+{
+    transition-property: background,color,transform;
+    transition-duration: 3s;
+
+}
+
+#second:hover
+{
+    background-color:white;
+    color:black;
+    transform: scale3d(1.5, 1.5, 1.5);
+    
+}
+
+
+#third
+{
+    transition-property: background,color,transform;
+    transition-duration: 3s;
+
+}
+
+#third:hover
+{
+    position:relative;
+    background-color:white;
+    color:black;
+    transform : translate3d(30%, 0, 0);
+    
+}
+
+
+
+
